@@ -1,3 +1,7 @@
+<!-- file : session.php
+Nama : Nadira Fawziyya Masnur
+NIM  : 18219004 -->
+
 <?php
    include('config.php');
    session_start();

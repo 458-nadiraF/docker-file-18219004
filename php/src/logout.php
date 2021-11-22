@@ -1,14 +1,17 @@
+<!-- file : logout.php
+Nama : Nadira Fawziyya Masnur
+NIM  : 18219004 -->
+
 <?php
-// Initialize the session
+// Inisialisasi sesi
 session_start();
- 
-// Unset all of the session variables
+
 $_SESSION = array();
  
 // Destroy the session.
 session_destroy();
  
-// Redirect to login page
+// Redirect ke login page atau index.php
 header("location: index.php");
 exit;
 ?>
